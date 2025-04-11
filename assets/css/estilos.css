@@ -71,3 +71,13 @@ body {
         "footer footer" 100px;
     }
 }
+
+@media (min-width:900px){
+    .contenedor{
+        grid-template:
+        "header header" 100px
+        "nav nav" 100px        
+        "aside article" auto
+        "footer footer" 100px;
+    }
+}
